@@ -10,6 +10,8 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+   
+    
   </head>
   <body>
     <!--Nav with home about login signup background blue-->
@@ -93,10 +95,12 @@
           >
             Contact
           </a>
+          
         </div>
+        
         <div>
           <a
-            href="#signup"
+            href="signup.html"
             class="
               inline-block
               text-sm
@@ -134,7 +138,9 @@
           >
             Log in
           </a>
+          
         </div>
+        
       </div>
     </nav>
     <main>
@@ -217,7 +223,7 @@
                   alt=""
                 />
                 <div class="text-sm">
-                  <p class="text-gray-900 leading-none">Jane Smith</p>
+                  <p class="text-gray-900 leading-none">Isabella</p>
                   <p class="text-gray-600">Directing Manager</p>
                 </div>
               </div>
@@ -251,7 +257,7 @@
                   alt=""
                 />
                 <div class="text-sm">
-                  <p class="text-gray-900 leading-none">Jane Smith</p>
+                  <p class="text-gray-900 leading-none">Sophia</p>
                   <p class="text-gray-600">Organizer</p>
                 </div>
               </div>
@@ -319,7 +325,7 @@
                   alt=""
                 />
                 <div class="text-sm">
-                  <p class="text-gray-900 leading-none">Jane Smith</p>
+                  <p class="text-gray-900 leading-none">Benjamin</p>
                   <p class="text-gray-600">Marketing Manager</p>
                 </div>
               </div>
@@ -327,7 +333,57 @@
           </div>
         </div>
       </section>
-      <!--Standard Contact form section-->
+      <!--contact section with name email message-->
+      <section id="contact">
+        <div class="container mx-auto px-4 pt-16 pb-12">
+          <div class="flex flex-col md:flex-row justify-center">
+            <div class="w-full md:w-1/2">
+              <div class="flex flex-col break-words bg-white border rounded-2xl shadow-md">
+                <div class="flex-1 p-6">
+                  <h2 class="text-gray-900 font-semibold">Contact Us</h2>
+                  <p class="mt-4 text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quisquam.
+                  </p>
+                  <form class="mt-6" action="#" method="POST">
+                    <div class="flex flex-wrap -mx-3 mb-6">
+                      <div class="w-full px-3 mb-6 md:mb-0">
+                        <label
+                          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                          for="grid-first-name"
+                        >
+                          
+                        Name
+                        </label>
+                        <input
+                          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                          id="grid-name"
+                          type="text"
+                          placeholder="Wiliam Czebet"
+                        />
+                      </div>
+                      <div class="w-full px-3">
+                        <label
+                          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                          for="grid-last-name"
+                        >
+                          Email
+                        </label>
+                        <input
+                          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                          id="grid-last-name"
+                          type="text"
+                          placeholder="example@example.com"
+                          />
+                          <!--submit button-->
+                          <button
+                            class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="button"
+                          >
+                            Send
+                          </button>
+
+
     </main>
 
     <script src="" async defer>
